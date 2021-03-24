@@ -1,0 +1,650 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0px; border: 0px; padding: 0px;}
+#base{width: 95%; margin: auto;}
+header{display: block;}
+body{background-color: white;}
+
+#imgFooter{display: flex; flex-direction: row; padding-left: 30px;  }
+marquee{padding-top: 10px;}
+
+
+.navegacion { float: right;width: 65%; margin: 30px 0px; background-color: white; padding-right: 40px; }
+ 
+
+  .navegacion ul{
+	list-style: none; text-align: center; 
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block; 
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: black;
+	background-color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: white;
+	background-color: #2DD0DD;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: white;
+	width: 140%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px; 
+	color: black;
+	font-family: 'Open sans';
+	
+	text-decoration: none;
+	text-align: left;
+	
+}
+
+.submenu li a:hover{
+	color: white;
+}
+	
+
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+#imgBanner{width: 100%; height: 100%; padding-left: 0px; padding-right: 0px; }
+#footer{width: 100%; background-color: #2DD0DD; display: flex; flex-direction: row; justify-content: space-around; padding-top: 40px; padding-bottom: 20px; border-bottom: 2px solid black;}
+.ulti{background-color:  #2DD0DD; padding-top: 30px; padding-bottom: 30px; padding-left: 30px;}
+.tituFooter{padding-bottom: 15px; padding-left: 30px; padding-right: 70px; text-align: left; font-family: 'Century Gothic';}
+p{text-align: left;}
+.logoImg{
+	padding-left: 50px;
+}
+.imgFooter{
+	padding: 3px;
+}
+
+/*Tilulo de cada pagina*/
+#planDent{padding: 30px 0px 30px 80px; display: flex; flex-direction: row;}
+.vinculo1{text-align: center; padding: 10px; padding-left: 30px; margin-top: 3px; 
+          color: red;
+          text-decoration: none;}
+
+/*Estilos Bonding*/
+.bonding{background-color: #E0EFEE;}
+.bonding h1{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 45px;
+	text-align: center;
+	padding: 10px;
+}
+
+.bonding h2{
+	color: #2DD0DD;
+	text-align: center;
+	font-size: 30px;
+}
+
+.bonding h3{
+	color: #2DD0DD;
+}
+
+.bonding h4{
+	font-size: 20px;
+	float: right;
+	color: red;
+	padding: 50px;
+	
+}
+
+.bonding1{
+	float: left;
+	width: 50%;
+	margin-left: 50px;
+	
+}
+
+.bonding1 p{
+	font-size: 23px;
+	text-align: justify;
+}
+
+.bonding1img{
+	float: right;
+	margin-right: 120px;
+	width: 30%;
+	
+}
+
+.bonding2{
+	clear: both;
+	font-size: 23px;
+	text-align: justify;
+	margin-left: 50px;
+	width: 90%;
+	
+}
+
+
+.bonding2 ul li{
+	padding: 5px;
+	list-style: none;
+	
+}
+
+/*Estilos Implantes*/
+
+.implantes{background-color: #E0EFEE;
+}
+
+.implantes h1{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 45px;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+.implantes1{
+	width: 40%;
+	font-size: 23px;
+	float: left;
+	margin-left: 50px;
+}
+
+.implantes1 h2{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+}
+
+.implantes1 p{
+	text-align: justify;
+	width: 100%;
+	height: 500%;
+}
+
+.implantes1img{
+	float: right;
+	width: 40%;
+	height: 500%;
+	margin-top: 50px;
+	margin-right: 100px;
+	
+}
+
+.implantes2 h2{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+}
+
+.implantes2{
+	clear: both;
+	margin-left: 50px;
+	
+}
+
+.implantes2 p{
+	text-align: justify;
+	font-size: 23px;
+	width: 100%;
+}
+
+.implantes2 h3{
+	font-size: 30px;
+	color:  #2DD0DD;
+	padding: 10px;
+	
+	
+}
+
+.implantes ul li{
+	font-size: 23px;
+	padding: 8px;
+	text-align: justify;
+	list-style: none;
+}
+
+.implante3{
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #E0EFEE;
+	padding-bottom: 40px;
+		
+}
+
+.implantes3img{
+	float: left;
+	width: 40%;
+	height: 500%;
+	padding-top: 100px;
+	
+}
+
+
+/*Estilos Carillas*/
+.carillas{background-color: #E0EFEE}
+.carillas h1{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 45px;
+	text-align: center;
+	padding: 10px;
+}
+
+.carillas1{
+	width: 40%;
+	height: 400%;
+	font-size: 23px;
+	float: left;
+	margin-left: 50px;
+	background-color: #E0EFEE;
+}
+
+.carillas1 p{
+	text-align: justify;
+}
+
+.carillas1 h2 {
+	text-align: center;
+	padding: 15px;
+	color:  #2DD0DD;
+}
+
+.carillas h3{
+	padding: 5px;
+		color:  #2DD0DD;
+}
+
+.carillas1img {
+	float: right;
+	width: 50%;
+	height: 900%;
+	margin-right: 20px;
+	margin-top: 20px;
+	
+}
+
+.carillas1img img{
+	width: 100%;
+	border-radius: 5%
+	
+}
+
+.carillas2{
+	clear: both;
+	background-color: #E0EFEE;
+}
+
+.carillas2{
+	float: right;
+	width: 40%;
+	height: 40%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
+
+.carillas2 p{
+	font-size: 23px;
+	text-align: justify;
+}
+
+.carillas2img{
+	float: left;
+	margin-top: 75px;
+	margin-left: 75px;
+	width: 40%;
+	height: 500%;
+	
+}
+
+.carillas2 h2{
+	font-size: 30px;
+	color:  #2DD0DD;
+	text-align: center;
+}
+
+.carillas2 h3{
+	font-size: 25px;
+}
+
+/*Estilos Odontopedriatría*/
+.odonto{
+	background-color: #E0EFEE
+}
+.odonto h1{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 45px;
+	text-align: center;
+	padding: 10px;
+}
+
+.odonto1{
+	float: left;
+	width: 40%;
+	height: 20%;
+	margin-left: 100px;
+	background-color: #E0EFEE;
+}
+
+.odonto1 p{
+	font-size: 23px;
+	text-align: justify;
+}
+
+.odonto2 h2{
+	color: #2DD0DD;
+	font-size: 30px;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+.odonto1img{
+	float: right;
+	width: 40%;
+	height: 500%;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+.odonto2{
+	clear: both;
+	float: right;
+	width: 40%;
+	height: 20%;
+	margin-right: 70px;
+	background-color: #E0EFEE;
+}
+
+.odonto2 ul li{
+	font-size: 23px;
+	text-align: justify;
+	padding: 5px;
+	list-style: none;
+	
+}
+
+.odonto2img{
+	float: left;
+	width: 40%;
+	height: 500%;
+	margin-left: 100px;
+	margin-top: 35px;
+}
+
+.odonto2img img{
+	width: 100%;
+	border-radius: 50px
+}
+
+/*Estilos Periodoncia*/
+.periodoncia{
+	background-color: #E0EFEE; ;
+}
+.periodoncia h1{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 45px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+.periodoncia1{
+	float: left;
+	width: 40%;
+	height: 20%;
+	margin-left: 120px;
+	margin-top: 10px;
+	background-color: #E0EFEE; 
+}
+
+.periodoncia1 p{
+	text-align: justify;
+	font-size: 23px;
+}
+
+.periodonciaimg{
+	float: right;
+	width: 40%;
+	height: 500%;
+}
+
+.periodoncia2{
+	clear: both;
+	float: right;
+	width: 50%;
+	height: 20%;
+	margin-right: 45px;
+	background-color: #E0EFEE; 
+}
+
+.periodoncia2 p {
+	text-align: justify;
+	font-size: 23px;
+	padding: 10px
+}
+
+.periodoncia2 li {
+	text-align: justify;
+	font-size: 23px;
+	padding: 10px;
+	list-style: none;
+}
+
+.periodoncia2 ul{
+	text-align: justify;
+	font-size: 23px;
+	padding: 10px;
+}
+
+.periodoncia2 h2{
+	font-size: 30px;
+	color: #2DD0DD;
+	margin-top: 50px;
+}
+
+.periodoncia2img{
+	float: left;
+	width: 30%;
+	margin-left: 130px;
+	margin-top: 60px;
+}
+
+.periodoncia2img img{
+	width: 100%;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+/*Estilos estetica dental*/
+.estetica{
+	background-color: #E0EFEE;
+}
+.estetica h1{
+	color: #2DD0DD;
+	font-family: "Arial";
+	font-size: 45px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
+	margin-top: 30px
+}
+
+.estetica1{
+	float: left;
+	width: 40%;
+	height: 500%;
+	margin-left: 100px;
+	background-color: #E0EFEE;
+}
+
+.estetica1 p{
+	text-align: justify;
+	font-size: 23px;
+	
+}
+
+.estetica1img{
+	float: right;
+	width: 50%;
+	height: 500%;
+	margin-top: 10px
+}
+
+.estetica2{
+	clear: both;
+	float: right;
+	width: 40%;
+	height: 500%;
+	margin: 50px;
+	margin-right: 150px;
+	margin-top: 90px;
+		background-color: #E0EFEE; 
+}
+
+.estetica2 h2{
+	color: #2DD0DD;;
+	font-size: 30px;
+}
+
+.estetica2 p{
+	font-size: 23px;
+	text-align: justify;
+	padding: 10px;
+	list-style: none;
+}
+
+.estetica2 li{
+	font-size: 23px;
+	text-align: justify;
+	padding: 10px;
+	list-style: none;
+}
+
+.estetica2img{
+	float: left;
+	width: 30%;
+	margin-left: 135px;
+	margin-top: 50px;
+	
+}
+
+.estetica2img img{
+	width: 100%;
+	padding: 10px;
+	border-radius: 50px;
+	padding-bottom: 30px;
+}
+
+
+
+
+.nosotrosizq{
+	float: left;
+	width: 40%;
+	margin-left: 50px;
+}
+
+.nosotrosizq img{
+	width: 100%;
+	border-radius: 50px
+}
+
+.nosotrosizq p{
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px;
+}
+
+.nosotrosizq h2{
+	font-size: 35px;
+	font-family:"Century Gothic";
+	color: 	#2DD0DD;
+	padding: 15px
+}
+
+.nosotrosdere{
+	float: right;
+	width: 50%;
+	margin-top: 10px;
+	margin-right: 30px
+}
+
+.nosotrosdere p{
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px;
+}
+
+.nosotrosdere h3{
+	font-size: 30px;
+	font-family:"Century Gothic";
+	color: 	#2DD0DD;
+	padding: 5px
+}
+
+.nosotrosdere h1{
+	font-size: 35px;
+	font-family:"Century Gothic";
+	color:#FF0004;
+	padding: 5px;
+	text-align: center;
+}
+
+.nosotrosdere img{
+	margin: 70px 0px 0 70px;
+}
+.section1{
+	display: inline-block;
+	width: 100%;
+	background-color: #E0EFEE;
+	padding-bottom: 40px;
+}
+.asideizq{
+	width: 40%;
+}
+.asidedere{
+	width: 40%;
+}
+.section2{
+	display: inline-block;
+	width: 100%;
+	background-color: #E0EFEE;
+}
+.img2{
+	padding-bottom: 50px;
+}
+.footersito{ list-style: none; text-decoration: none;}
+.footersito li a{  text-decoration: none;}
+
+

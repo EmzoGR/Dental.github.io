@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin: 0;
+
+      font-family: sans-serif;
+      background: url(../Imagenes/logo/fondoFormulario.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+     }
+
+
+main{
+	padding-top: 40px;
+}
+
+h1{color: white;
+   text-align: center;
+   font-size: 46px;
+   font-family: abril fatface;
+cursor: pointer;}
+
+form{
+	display: none;
+}
+
+.formaRegistrar{
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	border-radius: 8px;
+}
+.titulo{background-color: #2744F4;
+padding: 20px;
+	color: white;
+text-align: center;
+font-weight: 100;
+font-size: 30px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom: 5px solid red;}
+ 
+.imputs{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+    font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+
+.input-100{
+	width: 100%;
+}
+
+.input-50{
+	width: 40%;
+}
+
+.floor{
+	width: 100%;
+	margin: 7px;
+	text-align: left;
+	font-size: 14px;
+	padding-top: 15px;
+	
+}
+
+.btn-enviar{
+	background: #CC484A;
+	color: white;
+	padding: 15px 40px;
+	margin: auto;
+	cursor: pointer;
+}
+
+
+.btn-enviar:active{
+	transform: scale(1.05);
+}
+
+.btn-limpiar{
+	background: #CC484A;
+	color: white;
+	padding: 15px 40px;
+	margin: auto;
+	cursor: pointer;
+}
+.btn-limpiar:active{
+	transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

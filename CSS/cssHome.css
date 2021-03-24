@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0px; border: 0px; padding: 0px;}
+#base{width: 100%; margin: auto;}
+header{display: block; padding-top: 10px;}
+body{background-color: white;}
+main{padding-bottom: 70px; padding-top: 70px;}
+
+
+
+.article{background-color: white; display: flex; flex-direction: row; justify-content: space-around; padding-top: 10px; padding-bottom: 20px;}
+#imgFooter{display: flex; flex-direction: row; padding-left: 30px;  }
+marquee{padding-top: 10px;}
+
+
+.navegacion { float: right;width: 65%; margin: 30px 0px; background-color: white; padding-right: 40px; }
+ 
+
+  .navegacion ul{
+	list-style: none; text-align: center; 
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block; 
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: black;
+	background-color: white;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: white;
+	background-color: #2DD0DD;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: white;
+	width: 140%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px; 
+	color: black;
+	font-family: 'Open sans';
+	
+	text-decoration: none;
+	text-align: left;
+	
+}
+
+.submenu li a:hover{
+	color: white;
+}
+	
+
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+#imgBanner{width: 100%; height: 100%; padding-left: 0px; padding-right: 0px; max-width: 2000px;}
+
+figcaption{text-align: center; font-size: 20px;}
+#footer{width: 100%; background-color: #2DD0DD; display: flex; flex-direction: row; justify-content: space-around; padding-top: 40px; padding-bottom: 20px; border-bottom: 2px solid black;}
+.ulti{background-color:  #2DD0DD; padding-top: 30px; padding-bottom: 30px; padding-left: 30px;}
+.tituFooter{padding-bottom: 15px; padding-left: 30px; padding-right: 70px; text-align: left; font-family: 'Century Gothic';}
+p{text-align: left;}
+.marquee{color: red; font-size: 30px;}
+.logoImg{
+	padding-left: 50px;
+}
+.imgFooter{
+	padding: 3px;
+}
+
+
+/*Botones del banner*/
+.botones {
+	font-size:30px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 50%;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	color: #66C5DD;
+	box-shadow: 0 0 10px #66C5DD;
+	-webkit-transition: all .3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+}
+.botones:hover {
+	cursor: pointer;
+	transform: scale(1.1,1.1);
+}
+.atras {
+	left: 3%;
+	top: calc(50% - 70px);
+	bottom: calc(50%-70px);
+}
+.adelante {
+	right: 2%;
+	top: calc(50% - 70px);
+	bottom: calc(50%-70px);
+}
+
+
+
+figcaption{
+	color: #A42123;
+    font-family: 'Century Gothic';
+	font-size: 30px;
+	padding-bottom: 25px;
+	
+}
+
+.MejoresT{
+	text-align: center; 
+	font-size: 40px; 
+	padding-bottom: 20px; 
+	padding-top: 50px;	
+	color: #A42123;
+    font-family: 'Century Gothic';
+	
+}
+
+.footersito{ list-style: none; text-decoration: none;}
+.footersito li a{  text-decoration: none;}
+
+.card p{
+	text-align: justify;
+	font-family: 'Century Gothic'
+}
+
+.card h2{
+	color: #A42123;
+    font-family: 'Century Gothic';
+}
+
+

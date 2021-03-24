@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<link rel="icon" href="../Imagenes/icono4.png" type="image/x-icon" />
+<head>
+<meta charset="utf-8">
+<title>formulario</title>
+</head>
+<!-- <link rel="stylesheet" href="../CSS/estiloFormulario.css"> -->
+<link rel="stylesheet" href="../CSS/estiloFormulario.css">
+<body>
+	 <h1><i class="far fa-hand-point-right"></i>&nbsp Formulario de Contacto &nbsp<i class="far fa-hand-point-left"></i></h1>
+	<form action="proyecto.html" method="post" class="formaRegistrar" onSubmit="return validar();">
+	<h2 class="titulo">Envianos tus Datos</h2>
+		<div class="imputs">
+			
+		<input  id="nombre" type="text" name="nombre"  placeholder="Nombre" class="input-50"  required>
+		<input  id="apellidos" type="text" name="apellidos" placeholder="Apellidos" class="input-50"  required>
+		<input  id="email" type="email" name="email" placeholder="Correo" class="input-100"  required>
+		<input  id="usuario" type="text" name="usuario" placeholder="Usuario" class="input-50"  required>
+		<input  id="clave" type="password" name="clave" placeholder="Contraseña" class="input-50"  required>
+		<input  id="telefono" type="text" name="telefono" placeholder="Teléfono" class="input-100"  required>
+		<input  type="submit" value="Registrar" class="btn-enviar" >
+		<input  type="reset" value="Limpiar" class="btn-limpiar" >	
+		<p class="floor">Nos comunicaremos con usted en breve... Gracias por la confianza.</p>	
+		
+		
+		</div>
+	</form>
+	
+</body>
+	<script src="../JavaScript/jquery-3.2.1.js"></script>
+	<script src="../JavaScript/Formulario.js"></script>
+	<script src="../JavaScript/Iconos.js"></script>
+</html>
