@@ -3,26 +3,26 @@ var lista=["banner1.jpg","banner2.jpg","banner3.jpg"];
 var i=0;
 var rotacion;
 function carrusel(){
-	document.getElementById("imgbaner").src="../Imagenes/banner/"+lista[i];
+	document.getElementById("imgbaner").src="./Imagenes/banner/"+lista[i];
 	i++;
 	if(i>=lista.length) i=0;
 	rotacion=setTimeout("carrusel()",1500);
 }
 function cambiaratras(){
 	if( i > 0) {
-		document.getElementById("imgbaner").src="../Imagenes/banner/"+lista[i - 1];
+		document.getElementById("imgbaner").src="./Imagenes/banner/"+lista[i - 1];
 		i--;
 	}else {
-		document.getElementById("imgbaner").src="../Imagenes/banner/"+lista[lista.length - 1];
+		document.getElementById("imgbaner").src="./Imagenes/banner/"+lista[lista.length - 1];
 		i = lista.length-1;
 	}
 }
 function cambiaradelante(){
 	if(i < lista.length -1) {
-		document.getElementById("imgbaner").src="../Imagenes/banner/"+lista[i + 1];
+		document.getElementById("imgbaner").src="./Imagenes/banner/"+lista[i + 1];
 		i++;
 	}else {
-		document.getElementById("imgbaner").src="../Imagenes/banner/"+lista[0];
+		document.getElementById("imgbaner").src="./Imagenes/banner/"+lista[0];
 		i = 0;
 	}
 }
